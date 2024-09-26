@@ -1,4 +1,16 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task C
 
+count = 0
+
+scan package
+
+increment count by 2
+
+does count = 50
+
+   no? goto scan package
+   
+   yes? exit program
