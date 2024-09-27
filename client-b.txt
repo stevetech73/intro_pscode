@@ -1,4 +1,20 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+TASK B
 
+#Setup
+
+Customer location is 0 steps north, 0 steps south, 0 steps east, and 0 steps west
+
+Desired location is n steps north, s steps south, e steps east, and w steps west
+
+Does n = 0
+  no? take n steps in north direction
+  yes? Does s = 0
+     No? take s step in south direction
+     yes? Does e = 0
+        no? take e steps in east direction
+        yes? Does w = 0
+           no? take w steps in west direction.   #Should be at your destination
+           yes? exit program   #Should be at your destination
