@@ -1,4 +1,44 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+TASK A
 
+#Setup
+
+let x = 1  #low end
+
+let y = 10  #high end
+
+let z = 0  #number of tries
+
+let c =    #computer generated number
+
+let p =    #player's guess (input)
+
+The computer generates a number. Place this number in "c"
+
+print "Please select a number between 1 and 10"
+
+Place this number in "p"
+
+#Step01
+
+is p < x ?
+   Yes? print "Entry is invalid. Number too small"
+   No? is p > y
+      Yes? "Entry is invalid. Number too large"
+      No? Goto #Step02
+      
+#Step02
+
+Does p = c
+   Yes? print "That's Right!!!"
+      Go back to #Setup
+   No? print "Wrong Answer.Try again."
+       then z = z + 1
+          Does z = 3
+            No? Go back to Step02
+            Yes? print "The correct answer is "c". Thanks for playing"
+               Go back to #Setup
+               
+ Done              
